@@ -1,0 +1,25 @@
+saywhat "Welcome to our Programming Language: Questionnaire!"
+saywhat "Look at our variables!"
+
+whatis varString its "This String is a Variable"
+whatis varNum1 its 25
+whatis varNum4 its 25
+whatis varNum2 its 10 + 2
+saywhat whatis varString
+whatis varNum3 its whatis varNum1 + whatis varNum2
+
+saywhat whatis varNum1
+saywhat whatis varNum2
+saywhat whatis varNum3
+
+saywhat "Here is our If-Then!"
+maybe 1 itsits 1 ?
+saywhat "I'm maybe"
+!
+
+saywhat "And here if is with variables!"
+maybe whatis varNum1 itsits whatis varNum4 ?
+saywhat "varNum1 is equal to varNum4"
+!
+
+saywhat "And goodbye!?"
